@@ -1,0 +1,87 @@
+body{
+	background-color: rgb(180,214,180);
+}
+
+div.transiciones{
+	width: 80%;
+	margin: 5% auto;
+	padding: 2em;
+	background-color: rgb(236,236,236);
+}
+
+/*Elemento*/
+div.ejemplo{
+	width: 250px;
+	height: 250px;
+	border: 1px solid black;
+	background-color: rgb(20,174,187);
+	margin: 0 auto;
+
+	/*transicion*/
+	transition-property: all; /*Propiedes a
+	aplicar transicion*/ /*All o propiedades especificas*/
+	transition-duration: 3s;
+	transition-timing-function: linear;
+	transition-delay: 0s;
+}
+
+/*Evento*/
+div.ejemplo:hover{
+	border-radius: 50%;
+	background-color: pink;
+	border-color: white;
+}
+
+h1{
+	font-family: arial;
+	color: red;
+	text-decoration: underline;
+	border: 1px solid red;
+	text-align: center;
+
+	/* webkit para google, moz para mozilla, o para opera*/
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 4s;
+	-webkit-transition-timing-function: ease;
+	-webkit-transition-delay: 0s;
+
+	-moz-transition-property: all;
+	-moz-transition-duration: 4s;
+	-moz-transition-timing-function: ease;
+	-moz-transition-delay: 0s;
+
+	-o-transition-property: all;
+	-o-transition-duration: 4s;
+	-o-transition-timing-function: ease;
+	-o-transition-delay: 0s;
+}
+
+h1:hover{
+	font-family: monospace;
+	color: blue;
+	text-decoration: none;
+	border-radius: 50%;
+	background-color: white;
+}
+
+div.ejemplo{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    background-color: rgb(20,174,187);
+    margin: 0 auto;
+
+    /transicion/
+    transition-property: all; /Propiedes a
+    aplicar transicion/ /All o propiedades especificas/
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+/Evento/
+div.ejemplo:hover{
+    width: 350px;
+    background-color: pink;
+    border-color: white;
+}
